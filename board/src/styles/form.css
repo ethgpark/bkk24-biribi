@@ -1,0 +1,18 @@
+label input {
+  margin-left: 24px;
+  padding: 2px 3px;
+  border-radius: 8px;
+  outline: none;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+form footer {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

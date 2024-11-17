@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#root main {
+  flex-grow: 1;
+}

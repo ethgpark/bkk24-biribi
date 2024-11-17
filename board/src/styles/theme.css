@@ -1,0 +1,23 @@
+:root {
+  --fg-color: #ffffffde;
+  --bg-color: #14762f;
+
+  --app-color: #ffffff2b;
+  --shadow-color: black;
+
+  --link-primary-color: #646cff;
+  --link-secondary-color: #535bf2;
+
+  --button-primary-color: #bd302e;
+  --button-secondary-color: #8e0101;
+
+  --label-fg-color: #000000aa;
+  --label-bg-color: #ccc;
+
+  --modal-fg: #000000aa;
+  --modal-bg: white;
+}
+
+
+@media (prefers-color-scheme: light) {
+}

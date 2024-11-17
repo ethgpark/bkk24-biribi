@@ -1,0 +1,24 @@
+/* .modal-portal {} */
+
+.modal-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .47);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal {
+  max-width: 380px;
+  margin: 16px 8px 8px 16px;
+  padding: 8px;
+  color: var(--modal-fg);
+  background-color: var(--modal-bg);
+  box-shadow: -8px -8px var(--shadow-color);
+  border-radius: 17px;
+  border: 2px solid var(--fg-color);
+}

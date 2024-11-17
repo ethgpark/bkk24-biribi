@@ -1,0 +1,12 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-width: 480px;
+  max-width: 1280px;
+  margin: 16px 8px 8px 16px;
+  padding: 8px;
+  background-color: var(--app-color);
+  box-shadow: -8px -8px var(--shadow-color);
+  border-radius: 17px;
+  border: 2px solid var(--fg-color);
+}

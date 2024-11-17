@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  margin: 0;
+  padding: 1px 0 3px 0;
+}
+
+tbody.clickable tr:hover {
+  background-color: var(--app-color);
+  cursor: pointer;
+}
+
+tbody.clickable tr a {
+  display: block;
+  color: var(--fg-color);
+  padding: 0;
+  margin: 0;
+}
